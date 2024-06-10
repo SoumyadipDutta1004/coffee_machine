@@ -7,7 +7,8 @@ if __name__ == "__main__":
 
     while is_ture:
         # TODO: 1. Prompt user by asking "What would you like?(espresso/latte/capuccino):"
-        choice = input("What would you like?(espresso/latte/cappuccino): ").lower()
+        choice = input("What would you like?(espresso/latte/cappuccino/americano): ").lower()
+
         try:
             if choice == 'off':
                 is_ture = 0
