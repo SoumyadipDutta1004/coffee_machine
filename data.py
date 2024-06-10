@@ -6,6 +6,13 @@ MENU = {
         },
         "cost": 1.5,
     },
+    "americano": {
+        "ingredients": {
+            "water": 100,
+            "coffee": 28,
+        },
+        "cost": 1.5,
+    },
     "latte": {
         "ingredients": {
             "water": 200,
