@@ -47,7 +47,6 @@ def trans_success(amount_receive, cost) -> bool:
 def make_coffee(coffee_name, ingredients) -> any:
     for item in ingredients:
         data.resources[item] -= ingredients[item]
-
     print(f"Here is your {coffee_name}.Enjoy!.")
 
 
